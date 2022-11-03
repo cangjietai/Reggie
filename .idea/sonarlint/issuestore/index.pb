@@ -3,3 +3,15 @@ k
 ;src/main/java/com/itheima/reggie/mapper/EmployeeMapper.java,c\9\c9dbfee9e3a226fb68dd75682b956a970a0a87ab
 m
 =src/main/java/com/itheima/reggie/service/EmployeeService.java,f\e\fee7f9c6830050d2c30e3658331cd1e55717fb99
+n
+>src/main/java/com/itheima/reggie/config/MyBatisPlusConfig.java,2\f\2f41451fa9ef0a39750e5239c4ec39955e2734de
+v
+Fsrc/main/java/com/itheima/reggie/service/impl/EmployeeServiceImpl.java,d\9\d95aa507de2cbc809e2d369668685c90cf7eefb4
+p
+@src/main/java/com/itheima/reggie/common/JacksonObjectMapper.java,9\6\96ed2041cca7fef510640276f718c4b98f3beeb2
+g
+7src/main/java/com/itheima/reggie/ReggieApplication.java,7\3\732c3b6bcd0fd9ebf03570f81b785603a545cf63
+^
+.src/main/java/com/itheima/reggie/common/R.java,4\a\4a47cdf1f590a2fdfb867e23ee92cbc427df2a8f
+i
+9src/main/java/com/itheima/reggie/config/WebMvcConfig.java,c\8\c85cd5b9f00c55590c5fccb68328989bee1a7674

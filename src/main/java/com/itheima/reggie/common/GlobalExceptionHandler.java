@@ -40,4 +40,17 @@ public class GlobalExceptionHandler {
         return R.error("未知错误");
     }
 
+
+
+    /**
+     * 将捕获的自定义异常显示到前端页面
+     * @param ex
+     * @return
+     */
+    @ExceptionHandler(CustomException.class)
+    public R<String> exceptionHandler(CustomException ex) {
+        log.error(ex.getMessage());
+        return R.error(ex.getMessage());
+    }
+
 }
