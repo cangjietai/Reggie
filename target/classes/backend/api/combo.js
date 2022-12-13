@@ -8,11 +8,11 @@ const getSetmealPage = (params) => {
 }
 
 // 删除数据接口
-const deleteSetmeal = (id) => {
+const deleteSetmeal = (ids) => {
   return $axios({
     url: '/setmeal',
     method: 'delete',
-    params: { id }
+    params: { ids }
   })
 }
 
@@ -47,6 +47,6 @@ const setmealStatusByStatus = (params) => {
   return $axios({
     url: `/setmeal/status/${params.status}`,
     method: 'post',
-    params: { id: params.id }
+    params: { ids: params.ids }
   })
 }
